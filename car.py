@@ -1,7 +1,10 @@
 class Car:
 
-    def __init__(self):
-        self.color = 'Blue'
-        self.year = 2017
-        self.maker = 'Ford'
-        self.name = 'Fiesta'
+    def __init__(self, name, maker, year, color):
+        self.name = name
+        self.maker = maker
+        self.year = year
+        self.color = color
+
+    def drive(self):
+        print(self.name + ' started')
