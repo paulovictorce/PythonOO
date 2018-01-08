@@ -8,3 +8,7 @@ class Car:
 
     def drive(self):
         print(self.name + ' started')
+
+    @staticmethod
+    def hello():
+        print('Hello World1')
