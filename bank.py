@@ -1,7 +1,7 @@
 class Account:
 
-    def __init__(self, number):
-        self.number = number
+    def __init__(self, conta):
+        self.conta = conta
         self.__total = 0
 
     def deposit(self, value):
